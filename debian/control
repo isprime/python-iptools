@@ -1,0 +1,12 @@
+Source: iptools
+Maintainer: Adam Jacob Muller <adam@isprime.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-iptools
+Architecture: amd64
+Depends: 
+X-Python-Version: 2.7
+Description: A few useful functions and objects for manipulating ip addresses in python
